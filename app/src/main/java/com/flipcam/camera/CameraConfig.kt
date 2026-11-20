@@ -1,5 +1,6 @@
 package com.flipcam.camera
 
+import android.hardware.camera2.CameraDevice
 import android.content.Context
 import android.hardware.camera2.CameraCharacteristics
 import android.hardware.camera2.CameraManager
@@ -77,7 +78,7 @@ object CameraConfig {
         previewTarget: Surface,
         recordTarget: Surface,
         executor: Executor,
-        callback: SessionConfiguration.StateCallback,
+        callback: SessionConfiguration.CameraDevice.StateCallback,
     ): SessionConfiguration {
         val previewConfig = OutputConfiguration(previewTarget)
         val recordConfig = OutputConfiguration(recordTarget).apply {
