@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlipCam</string>
+    <string name="hud_ten_bit">10-BIT LOG</string>
+    <string name="hud_uhd60">4K 60</string>
+    <string name="hud_lut">LUT</string>
+    <string name="hud_skeleton">SKELETON</string>
+    <string name="hud_gimbal_off">GIMBAL OFF</string>
+    <string name="hud_gimbal_live">GIMBAL LIVE</string>
+    <string name="permission_camera_required">Camera permission is required to preview and record.</string>
+</resources>
